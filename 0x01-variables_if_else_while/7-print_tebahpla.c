@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char rverse_alphabet = 'z';
+	char reverse_alphabet = 'z';
 
 	while (reverse_alphabet >= 'a')
 	{
