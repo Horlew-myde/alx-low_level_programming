@@ -3,10 +3,10 @@
 #include <time.h>
 
 /**
- * main - Determines if a number n is either greter than 5, less than 6 or equal to zero
+ * main - Determines if a number n is either greter than 5, less than 6 /= 0
  *
  * Return: Always 0 (Success)
- */ 
+ */
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
