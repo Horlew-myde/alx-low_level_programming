@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - print base 10 number with only 2 putchar
  * Return: Always 0 (Success)
  */
