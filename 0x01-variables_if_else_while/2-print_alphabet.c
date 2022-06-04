@@ -9,9 +9,10 @@ int main(void)
 {
 	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
-	while  (alpha <= 'z')
+
+	for (i = 0; 1 < 26; i++)
 	{
-		putchar(alpha);
+		putchar(alpha[i]);
 	}
 	putchar('\n');
 	return (0);
