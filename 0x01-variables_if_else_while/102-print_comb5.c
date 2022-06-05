@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print combo of 2, 2 figit numbers ranging 0 to 99 
+ * main - Print combo of 2, 2 figit numbers ranging 0 to 99
  *
  *
  * Return: Always 0 (Success0
