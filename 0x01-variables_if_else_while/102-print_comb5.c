@@ -1,4 +1,4 @@
-#include <studio.h>
+#include<studio.h>
 
 /**
  * main - Print combo of 2, 2 figit numbers
