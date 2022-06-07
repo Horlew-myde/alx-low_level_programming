@@ -15,7 +15,6 @@ int _islower(int c)
 	{
 		return (0);
 	}
-	_putchar(i);
 
 /*using ASCII valuse in the code above*/
 	_putchar('\n');

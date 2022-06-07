@@ -24,7 +24,6 @@ int _print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
-	_putchar(i);
 
 /*using ASCII valuse in the code above*/
 	_putchar('\n');
