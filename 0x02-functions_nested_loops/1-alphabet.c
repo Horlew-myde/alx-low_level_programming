@@ -16,5 +16,4 @@ void print_alphabet(void)
 /*using ASCII valuse in the code above*/
 	putchar('\n');
 
-	return (0);
 }
