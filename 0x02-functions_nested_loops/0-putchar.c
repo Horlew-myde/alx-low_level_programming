@@ -1,8 +1,9 @@
+include "main.h"
 #include <stdio.h>
 /**
  * main - print _putchar thrn a new line
  *
- * the program should also return 0
+ * Return Always 0 (SUCCESS)
  *
  */
 int main(void)
