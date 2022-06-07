@@ -13,6 +13,6 @@ void print_alphabet(void)
 		_putchar(i);
 	}
 /*using ASCII valuse in the code above*/
-	putchar('\n');
+	_putchar('\n');
 
 }
