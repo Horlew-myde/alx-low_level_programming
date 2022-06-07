@@ -1,9 +1,20 @@
 #include <stdio.h>
+#include "main.h"
 /**
- * print the lowercase alphabets
+ * main - print _putchar thrn a new line
  *
- * Return Always 0 (success)
+ * Return:0  Always (SUCCESS)
  *
  */
+void print_alphabet(void)
+{
+	int i;
+	for (i =97; i <= 122; i++)
+	{
+		_putchar(i);
+	}
 
+	putchar('\n');
 
+	return (0);
+}
