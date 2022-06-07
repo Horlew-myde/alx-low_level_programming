@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * jack_baurer  - prints evert fu**ing minutes of the day
+ * jack_bauer  - prints evert fu**ing minutes of the day
  *
- * 
  * Return: no return   Always (SUCCESS)
  *
 */
