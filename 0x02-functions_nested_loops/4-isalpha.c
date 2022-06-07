@@ -2,6 +2,8 @@
 /**
  * _isalpha - shows 1 if input is an alphabet else 0
  *
+ * @c: character to check
+ *
  * Return: 1 for alphaber. 0 for the rest  Always (SUCCESS)
  *
 */
