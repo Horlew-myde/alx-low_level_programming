@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _abs - computes absolute value of an integer
+ * _abs  - computes absolutte value of an integer
  *
- * input (i) = integer.
- *
- * Return: absolute value 0 for the rest  Always (SUCCESS)
+ * The input number as an integer.
+ * @i: input shold be an integer
+ * Return: absokute value  Always (SUCCESS)
  *
 */
 int _abs(int i)
@@ -17,6 +17,7 @@ int _abs(int i)
 	{
 		return (i * -1);
 	}
+
 /*using ASCII valuse in the code above*/
 	_putchar('\n');
 
