@@ -16,7 +16,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(i);
 		}
-	
 /*using ASCII valuse in the code above*/
 	_putchar('\n');
 	}
