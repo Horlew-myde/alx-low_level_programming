@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int count;
+	int c;
 	unsigned long a =0, b = 1, d;
 
 	for (d = 0; d < 50; d++)
@@ -18,7 +18,7 @@ int main(void)
 		a = b;
 		b = d;
 
-		if (count == 49)
+		if(c == 49)
 			printf("\n");
 		else
 			printf(", ");
