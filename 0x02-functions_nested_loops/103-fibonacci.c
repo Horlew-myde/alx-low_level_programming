@@ -24,6 +24,6 @@ int main(void)
 			even_sum += sum;
 	}
 	printf("%d\n", even_sum);
-	
+
 	return (0);
 }
