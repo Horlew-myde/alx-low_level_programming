@@ -8,18 +8,21 @@
 int main(void)
 {
 	int c;
-	long int a, b, d;
+	unsigned long a =0, b = 1, d;
 
-	a = 1;
-	b = 2;
-	printf("%ld, %ld", a, b);
-	for (c = 0; c < 48; c++)
+	for (d = 0; d < 50; d++)
 	{
 		d = a + b;
-		printf(", %ld", d);
+		printf("%lu", d);
+
 		a = b;
-		a = d;
+		b = d;
+
+		if (c == 49)
+			printf("\n");
+		else
+			prinf(", ");
 	}
-	printf("\n");
+
 	return (0);
 }
