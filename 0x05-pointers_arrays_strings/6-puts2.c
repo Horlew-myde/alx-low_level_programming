@@ -19,6 +19,6 @@ while (str_xter >= 0)
 	}
 	if (str_xter % 2 == 0)
 		_putchar(str[str_xter]);
-	count++;
+	str_xter++;
 }
 }
