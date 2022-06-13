@@ -16,6 +16,7 @@ void print_rev(char *s)
 		break;
 	str_rev++;
 	}
+	str = s;
 
 	for (a = 0; a < (str_rev - 1); a++)
 	{
