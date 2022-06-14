@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_rev - prints a reverse string.
+ * rev_string - reverse string.
  * @s: input string.
  * Return: no return.
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int str_rev = 0, a, b;
-	char *str, ver;
+	char *str, temp;
 
 	while (str_rev >= 0)
 	{
@@ -22,9 +22,9 @@ void print_rev(char *s)
 	{
 		for (b = a + 1; b > 0; b--)
 		{
-			ver = *(str + b);
+			temp = *(str + b);
 			*(str + b) = *(str + (b - 1));
-			*(str + (b - 1)) = ver;
+			*(str + (b - 1)) = temp;
 		}
 	}
 }

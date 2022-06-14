@@ -19,6 +19,6 @@ while (gen < 2772)
 	gen = gen + key;
 	printf("%c", key);
 }
-printf("%c\n", (2772 - key));
+printf("%c\n", (2772 - gen));
 return (0);
 }
