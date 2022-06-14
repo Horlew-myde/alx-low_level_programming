@@ -10,7 +10,7 @@ int _atoi(char *s)
 int mide = 1;
 unsigned int olu = 0;
 
-do{
+do {
 	if (*s == '-')
 		mide *= -1;
 
