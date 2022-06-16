@@ -7,22 +7,22 @@
  * @src: source.
  * Return: dest pointer.
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src)
 {
-	int count = 0, count2 = 0;
+	int str1 = 0, str2 = 0;
 
-	while (*(dest + count) != '\0')
+	while (*(dest + str1) != '\0')
 	{
-		count++;
+		str1++;
 	}
 
-	while (count2 >= 0)
+	while (str2 >= 0)
 	{
-		*(dest + count) = *(src + count2);
-		if (*(src + count2) == '\0')
+		*(dest + str1) = *(src + str2);
+		if (*(src + str2) == '\0')
 			break;
-		count++;
-		count2++;
+		str1++;
+		str2++;
 	}
 	return (dest);
 }
