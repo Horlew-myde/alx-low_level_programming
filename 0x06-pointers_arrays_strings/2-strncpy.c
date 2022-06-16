@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * *_strncpy - string copycat
  * @dest: destination.
