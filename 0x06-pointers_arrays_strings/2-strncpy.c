@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncpy - string copycat
+ * _strncpy - string copycat
  * @dest: destination.
  * @src: source.
  * @n: bytes amount from src.
