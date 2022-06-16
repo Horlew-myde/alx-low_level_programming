@@ -3,7 +3,7 @@
  * _strcmp - compares two strings
  * @s1: first string.
  * @s2: second string.
- * Return: 0 if s1 and s2 are equals,
+ * Return: 0 if string1 and string2 are equals,
  * another number if not.
  */
 
@@ -15,7 +15,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		if ((*(s1 + str1) == '\0') && (*(s2 + str1) == '\0'))
 			break;
-		str2 = *(s1 + str1) - *(s2 + str2);
+		str2 = *(s1 + str1) - *(s2 + str1);
 		str1++;
 	}
 

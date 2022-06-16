@@ -15,7 +15,7 @@ int end = n - 1;
 while (begin < end)
 {
 	temp = *(a + begin);
-	*(a + being) = *(a + end);
+	*(a + begin) = *(a + end);
 	*(a + end) = temp;
 	begin++, end--;
 }
