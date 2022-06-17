@@ -25,7 +25,7 @@ if (size_r <= bg + 1)
 	return (0);
 r[bg + 1] = '\0';
 i1--, i2--, size_r--;
-dr1 = *(n1 + i1) - 48, dr2 = *(n2 + i2) - 48;
+dr1 = *(n1 + i1) -48, dr2 = *(n2 + i2) - 48;
 while (bg >= 0)
 {
 	op = dr1 + dr2 + add;
@@ -38,7 +38,7 @@ while (bg >= 0)
 	else
 		*(r + bg) = '0';
 	if (i1 > 0)
-		i1--, dr1 = *(n1 + i1) - 48;
+		i1--, dr1 = *(n1 + i1) -48;
 	else
 		dr1 = 0;
 	if (i2 > 0)
