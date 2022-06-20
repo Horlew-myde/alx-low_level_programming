@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strpbrk - locates the first occurence of any string 
+ * _strpbrk - locates the first occurence of any string
  * for any of a set of bytes in accept.
  * @s: first string.
  * @accept: second string.
