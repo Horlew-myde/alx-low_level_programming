@@ -29,7 +29,7 @@ for (a = 0; a < height; a++)
 	if (gridout[a] == NULL)
 	{
 		for (a--; a >= 0; a--)
-			free(gridout[i]);
+			free(gridout[a]);
 		free(gridout);
 		return (NULL);
 	}
