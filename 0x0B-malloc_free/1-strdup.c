@@ -22,7 +22,7 @@ output = (char *)malloc(sizeof(char) * (a + 1));
 if (output == NULL)
 	return (NULL);
 
-for (j = 0; b <= a; b++)
+for (b = 0; b <= a; b++)
 	output[b] = str[b];
 
 return (output);
