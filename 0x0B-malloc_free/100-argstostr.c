@@ -34,9 +34,9 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	}
 
-	for (b = c = d = 0; ia < a; c++, ia++)
+	for (b = c = d = 0; d < a; c++, d++)
 	{
-		if (av[i][c] == '\0')
+		if (av[b][c] == '\0')
 		{
 			aout[d] = '\n';
 			b++;
@@ -44,7 +44,7 @@ char *argstostr(int ac, char **av)
 			c = 0;
 		}
 		if (d < a - 1)
-			aout[d] = av[b][j];
+			aout[d] = av[b][c];
 	}
 	aout[d] = '\0';
 
