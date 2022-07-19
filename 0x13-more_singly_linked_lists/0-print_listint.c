@@ -9,15 +9,14 @@ ines (17 sloc) 331 Bytes
 
 size_t print_listint(const listint_t *h)
 {
-	size_t num_nodes = 0;
+size_t num_nodes = 0;
 
-	while (h != NULL)
-	{
-		printf("%d\n", h->n); /* autofills 0 if no int value given */
+while (h != NULL)
 
-		num_nodes += 1;
-		h = h->next;
-	}
-
-	return (num_nodes);
+{
+	printf("%d\n", h->n);
+	h = h->next;
+	nnodes++;
+}
+return (nnodes);
 }
